@@ -34,3 +34,8 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+*.b#1
+*.s#1
+*.s#2
+*.s#3
