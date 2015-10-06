@@ -6193,7 +6193,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="IC2" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="NE555D"/>
+<part name="IC1" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="NE555D"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R1206" value="2.2k"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="1.5k"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="47k"/>
@@ -6209,11 +6209,11 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+5" library="microbuilder" deviceset="VCC" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
-<part name="JP7" library="adafruit" deviceset="PINHD-1X3" device="" value="SERVO_OUT"/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device="" value="INPUT / CV"/>
+<part name="JP2" library="adafruit" deviceset="PINHD-1X3" device="" value="SERVO_OUT"/>
+<part name="JP3" library="adafruit" deviceset="PINHD-1X3" device="" value="INPUT / CV"/>
 <part name="P+6" library="microbuilder" deviceset="VCC" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
-<part name="JP2" library="microbuilder" deviceset="HEADER-1X2" device="" value="4.5-5.5V"/>
+<part name="JP1" library="microbuilder" deviceset="HEADER-1X2" device="" value="4.5-5.5V"/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
 <part name="U$6" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
@@ -6223,7 +6223,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <text x="88.9" y="5.08" size="1.778" layer="91">github.com/yoshco/555brain</text>
 </plain>
 <instances>
-<instance part="IC2" gate="G$1" x="55.88" y="58.42"/>
+<instance part="IC1" gate="G$1" x="55.88" y="58.42"/>
 <instance part="R1" gate="G$1" x="78.74" y="58.42"/>
 <instance part="R2" gate="G$1" x="25.4" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.9014" y="46.99" size="1.778" layer="95" rot="R90"/>
@@ -6235,7 +6235,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <attribute name="NAME" x="24.1554" y="62.484" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="P+1" gate="VCC" x="68.58" y="71.12"/>
-<instance part="U$1" gate="G$1" x="50.8" y="38.1"/>
+<instance part="U$1" gate="G$1" x="38.1" y="38.1"/>
 <instance part="C2" gate="A" x="73.66" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.5744" y="45.4914" size="2.0828" layer="95" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="70.9422" y="40.4114" size="2.0828" layer="96" ratio="10" rot="SR180"/>
@@ -6248,21 +6248,21 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </instance>
 <instance part="P+4" gate="VCC" x="25.4" y="83.82"/>
 <instance part="U$2" gate="G$1" x="25.4" y="76.2"/>
-<instance part="P+5" gate="VCC" x="91.44" y="71.12"/>
-<instance part="U$3" gate="G$1" x="91.44" y="60.96"/>
-<instance part="JP7" gate="A" x="101.6" y="66.04" smashed="yes">
+<instance part="P+5" gate="VCC" x="86.36" y="71.12"/>
+<instance part="U$3" gate="G$1" x="86.36" y="63.5"/>
+<instance part="JP2" gate="A" x="101.6" y="66.04" smashed="yes">
 <attribute name="NAME" x="95.25" y="61.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="71.882" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="101.6" y="50.8" smashed="yes">
+<instance part="JP3" gate="A" x="101.6" y="50.8" smashed="yes">
 <attribute name="NAME" x="95.25" y="46.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="P+6" gate="VCC" x="91.44" y="55.88" smashed="yes">
-<attribute name="VALUE" x="87.122" y="52.832" size="1.27" layer="96"/>
+<instance part="P+6" gate="VCC" x="86.36" y="55.88" smashed="yes">
+<attribute name="VALUE" x="82.042" y="52.832" size="1.27" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="91.44" y="45.72"/>
-<instance part="JP2" gate="G$1" x="35.56" y="78.74"/>
+<instance part="U$4" gate="G$1" x="86.36" y="48.26"/>
+<instance part="JP1" gate="G$1" x="35.56" y="78.74"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U$6" gate="G$1" x="12.7" y="73.66"/>
 </instances>
@@ -6271,11 +6271,11 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="VCC+"/>
+<pinref part="IC1" gate="G$1" pin="VCC+"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="66.04" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="66.04" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="/RES"/>
+<pinref part="IC1" gate="G$1" pin="/RES"/>
 <wire x1="66.04" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="68.58" y="66.04"/>
@@ -6293,17 +6293,17 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<wire x1="99.06" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="1"/>
+<wire x1="99.06" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="91.44" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="86.36" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6311,34 +6311,33 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="C2" gate="A" pin="2"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="66.04" y1="50.8" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
-<junction x="50.8" y="43.18"/>
-<wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
+<junction x="38.1" y="43.18"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<junction x="50.8" y="43.18"/>
+<junction x="38.1" y="43.18"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="91.44" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="86.36" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="99.06" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="86.36" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="TRE"/>
+<pinref part="IC1" gate="G$1" pin="TRE"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -6347,7 +6346,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="33.02" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <junction x="33.02" y="66.04"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="TRI"/>
+<pinref part="IC1" gate="G$1" pin="TRI"/>
 <wire x1="45.72" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="66.04" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
@@ -6366,20 +6365,20 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="33.02" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 <junction x="33.02" y="55.88"/>
-<pinref part="IC2" gate="G$1" pin="DIS"/>
+<pinref part="IC1" gate="G$1" pin="DIS"/>
 <wire x1="43.18" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="CON"/>
+<pinref part="IC1" gate="G$1" pin="CON"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -6387,18 +6386,20 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <net name="SERVO_OUT" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="58.42" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="99.06" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="63.5" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="50.8" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="99.06" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="48.26" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="43.18" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
