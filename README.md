@@ -10,6 +10,7 @@ orginal design by Tom Jenner based on work by B.E.A.M robotics community and Mar
 
 
 
-<img src="http://i.imgur.com/TgBZQDq.png" alt="555brain">
-<img src="http://i.imgur.com/uGx18En.png" alt="555brain">
+<img src="https://github.com/5shekel/555brain/blob/smd/555srvc.brd.png" alt="555srvc smd">
+
+<img src="https://github.com/5shekel/555brain/blob/smd/555srvc.png" alt="555srvc smd">
 
