@@ -6193,7 +6193,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="NE555D"/>
+<part name="IC1" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="555"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R1206" value="2.2k"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="1.5k"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="47k"/>
@@ -6213,7 +6213,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="JP3" library="adafruit" deviceset="PINHD-1X3" device="" value="INPUT / CV"/>
 <part name="P+6" library="microbuilder" deviceset="VCC" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
-<part name="JP1" library="microbuilder" deviceset="HEADER-1X2" device="" value="4.5-5.5V"/>
+<part name="JP1" library="microbuilder" deviceset="HEADER-1X2" device="ROUND" value="4.5-5.5V"/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
 <part name="U$6" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
