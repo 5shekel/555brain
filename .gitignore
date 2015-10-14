@@ -37,6 +37,7 @@ Icon
 .Trashes
 
 *.b#*
-*.s*
+*.s#*
+*.l#*
 
 vids/*
