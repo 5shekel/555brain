@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1472,10 +1472,6 @@ grid 5.08 mm, diameter 5 mm</description>
 <package name="E5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 6 mm</description>
-<wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" style="shortdash" curve="-129.378377" cap="flat"/>
-<wire x1="-2.8702" y1="-1.3574" x2="2.8702" y2="-1.3574" width="0.1524" layer="21" style="shortdash" curve="129.378377" cap="flat"/>
-<wire x1="-2.8702" y1="1.3574" x2="-2.8702" y2="-1.3574" width="0.1524" layer="51" style="shortdash" curve="50.621623" cap="flat"/>
-<wire x1="2.8702" y1="-1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="51" style="shortdash" curve="50.621623" cap="flat"/>
 <wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-0.762" x2="-0.254" y2="-0.762" width="0.1524" layer="21"/>
@@ -1483,8 +1479,8 @@ grid 5.08 mm, diameter 6 mm</description>
 <wire x1="-0.254" y1="0.762" x2="-0.762" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="0.762" x2="-0.762" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="0.508" x2="-1.016" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.254" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
 <rectangle x1="0.254" y1="-0.762" x2="0.762" y2="0.762" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1.016" diameter="1.676740625"/>
 <pad name="-" x="2.54" y="0" drill="1.016" diameter="1.6764"/>
