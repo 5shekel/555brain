@@ -1,10 +1,9 @@
 555brain
 ========
 
-555 based brain module
+555 based brain module - using ATtiny85!
 
-555brain thru-hole branch, cut on copper foil in TAMI.org.il  
-<img src="http://i.imgur.com/qK9Ut6Z.jpg" width="300" alt="555brain cut on copper foil in TAMI.org.il">
+this branch is relying heavly on the attiny servo lib and schematics from http://www.cunningturtle.com/wiki/index.php?title=Dual_Servo_Controller
 
 
 
